@@ -16,6 +16,12 @@ page := Div(
 ).Render()
 ```
 
+This generates HTML like so:
+
+```
+<div><p>Hello, Jason!</p><a href="/home">Click here</a><img src="/logo.png" alt="Logo" /></div>
+```
+
 ## Features
 
 - Generated from [WHATWG HTML Standard](https://html.spec.whatwg.org/) WebIDL
